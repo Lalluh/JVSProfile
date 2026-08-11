@@ -1,0 +1,367 @@
+@media (min-width: 1281px) {
+  body {
+    zoom: 1.45;
+  }
+}
+
+body {
+  background-color: #0a0a0a;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 60px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 32px;
+}
+
+.nav-links a {
+  color: #c7c7c7;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+.logo {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 32px;
+  color: #c7c7c7;
+}
+
+.container {
+  padding-left: 108px;
+  padding-right: 108px;
+}
+
+.hero-content {
+  margin-top: 125px;
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 101px;
+  line-height: 90%;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  font-family: "Manrope", sans-serif;
+  color: #c7c7c7;
+  font-size: 18px;
+  margin-top: 8px;
+  margin-bottom: 40px;
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn-primary {
+  font-family: "Manrope", sans-serif;
+  background-color: #dd3b3f;
+  color: white;
+  text-decoration: none;
+  padding: 6px 6px 6px 24px;
+  border-radius: 100px;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.circle {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.btn-icon {
+  width: 54px;
+  height: 54px;
+  border-radius: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-active {
+  display: flex;
+}
+
+.modal-content {
+  background-color: #0a0a0a;
+  padding: 40px;
+  border-radius: 16px;
+  position: relative;
+  max-width: 900px;
+  width: 90%;
+}
+
+.btn-close {
+  position: absolute;
+  top: -45px;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  color: #121212;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 10 px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.contato-redes img {
+  width: 32px;
+  height: auto;
+}
+
+.contato-redes {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: -5px;
+}
+
+.contato-container {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.contato-info h2 {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.contato-info p {
+  font-family: "Manrope", sans-serif;
+  margin-bottom: 0px;
+}
+
+.contato-info a {
+  color: white;
+  text-decoration-color: #dd3b3f;
+}
+
+.contato-info,
+.contato-form {
+  flex: 1;
+}
+
+.contato-info {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+}
+
+.contato-form label {
+  font-family: "Manrope", sans-serif;
+  display: block;
+  color: white;
+  margin-bottom: 6px;
+}
+
+.contato-form input,
+.contato-form textarea {
+  font-family: "Manrope", sans-serif;
+  width: 100%;
+  background-color: #1a1a1a;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  color: white;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.contato-form textarea {
+  resize: none;
+}
+
+.contato-redes .img-behance {
+  width: 90px !important;
+  height: auto !important;
+  margin: 0 -27px !important;
+  transform: translateY(2.6px);
+}
+
+.img-instagram {
+  transform: translateY(0.6px);
+}
+
+.copyright {
+  font-size: 16px;
+  color: #c7c7c7;
+  margin-top: auto;
+}
+
+.btn-enviar {
+  font-family: "Manrope", sans-serif;
+  background-color: #dd3b3f;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  padding: 12px 36px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#projetos {
+  margin-top: 240px;
+  margin-bottom: 120px;
+}
+
+#projetos h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 76px;
+  margin-bottom: 80px;
+  color: white;
+}
+
+.lista-projetos {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+
+.card-projeto {
+  display: flex;
+  align-items: flex-start;
+  gap: 48px;
+  background-color: transparent;
+  padding: 0px;
+  border-radius: 12px;
+}
+
+.container-img-projeto {
+  background-color: #1a1a1a;
+  padding: 24px;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.img-projeto {
+  width: 440px;
+  height: 440px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.info-projeto {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-projeto h3 {
+  font-family: "Manrope", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: white;
+}
+
+.info-projeto p {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  color: #c7c7c7;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+.projeto-info {
+  border-top: 1px solid #2a2a2a;
+  padding-top: 16px;
+  margin-bottom: 24px;
+}
+
+.label-info {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.linha-ferramentas {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.titulo-ferramentas {
+  color: white;
+}
+
+.nomes-ferramentas {
+  color: #c7c7c7;
+}
+
+.link-projeto {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #dd3b3f;
+  text-decoration: none;
+  border-bottom: 2px solid #dd3b3f;
+  padding-bottom: 4px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+}
+
+.icon-seta {
+  width: 24px;
+  height: 24px;
+}
+
+.botoes-projeto {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}

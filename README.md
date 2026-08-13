@@ -6,7 +6,7 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 💻 Projeto
 
-O JVS é um site portifólio criado exclusivamente para jonsantz, Técnico em Multimídia e profissional na área de Motion Designer.
+O JVS é um site portifólio criado exclusivamente para jonsantz, Técnico em Multimídia e profissional na área como Motion Designer.
 
 Feito com ❤️ por [Lunelitha](https://github.com/Lalluh)
 

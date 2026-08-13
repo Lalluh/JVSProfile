@@ -1,6 +1,24 @@
-@media (min-width: 1281px) {
+@media (min-width: 1601px) {
   body {
     zoom: 1.3;
+  }
+}
+
+@media (max-width: 1600px) and (min-width: 1367px) {
+  body {
+    zoom: 1.1;
+  }
+}
+
+@media (max-width: 1366px) and (min-width: 1281px) {
+  body {
+    zoom: 0.9;
+  }
+}
+
+@media (max-width: 1280px) {
+  body {
+    zoom: 0.8;
   }
 }
 

@@ -2,12 +2,10 @@
 
 Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
-> HTML e CSS
-> Github
-> Figma
+[![Tecnologias](https://skillicons.dev/icons?i=js,html,css,figma)](https://skillicons.dev)
 
 💻 Projeto
 
-O JVS é um site portifólio exclusivamente para jonsantz, profissional na área de Motion Designer.
+O JVS é um site portifólio criado exclusivamente para jonsantz, Técnico em Multimídia e profissional na área de Motion Designer.
 
-Feito com ♥ by Lunelitha
+Feito com ❤️ por [Lunelitha](https://github.com/Lalluh)

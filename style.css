@@ -545,3 +545,96 @@ h1 {
   color: #c7c7c7;
   font-size: 16px;
 }
+
+/* Aba de Galeria */
+
+.galeria-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.card-video {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #111;
+}
+
+.card-video video,
+.card-video img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+header.container {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.logo {
+  text-decoration: none;
+  color: #c7c7c7;
+  display: inline-block;
+}
+
+.logo:visited {
+  color: #c7c7c7;
+}
+
+.titulo-galeria {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 80px;
+  color: white;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.modal-video-content {
+  max-width: 1000px;
+  width: 90%;
+  background-color: transparent;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#video-destaque {
+  width: 100%;
+  max-height: 80vh;
+  border-radius: 12px;
+  outline: none;
+}
+
+.card-video {
+  cursor: pointer;
+}
+
+/* Rodapé */
+.rodape {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-top: 1px solid #1a1a1a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  color: #777777;
+}
+
+.creditos a {
+  color: #c7c7c7;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.creditos a:hover {
+  color: #dd3b3f;
+}

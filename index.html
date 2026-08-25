@@ -67,13 +67,11 @@
       <h2>PROJETOS</h2>
       <div class="lista-projetos">
         <!--PRIMEIRO CARD-->
-        <div class="card-projeto">
+        <div class="card-projeto card-video">
           <div class="container-img-projeto">
-            <img
-              src="img/comVFX 1.png"
-              alt="Animação de Personagem - Visualizer"
-              class="img-projeto"
-            />
+            <video autoplay loop muted playsinline class="img-projeto">
+              <source src="videos/Main_1.mp4" type="video/mp4" />
+            </video>
           </div>
           <div class="info-projeto">
             <h3>Animação de Personagem - Visualizer</h3>
@@ -102,13 +100,11 @@
         </div>
 
         <!--SEGUNDO CARD-->
-        <div class="card-projeto">
+        <div class="card-projeto card-video">
           <div class="container-img-projeto">
-            <img
-              src="img/image 10.png"
-              alt="Logo Review - Duolingo"
-              class="img-projeto"
-            />
+            <video autoplay loop muted playsinline class="img-projeto">
+              <source src="videos/Logo Review.mp4" type="video/mp4" />
+            </video>
           </div>
           <div class="info-projeto">
             <h3>Logo Review - Duolingo</h3>
@@ -139,13 +135,11 @@
         </div>
 
         <!--TERCEIRO CARD-->
-        <div class="card-projeto">
+        <div class="card-projeto card-video">
           <div class="container-img-projeto">
-            <img
-              src="img/ISSOÉFON.png"
-              alt="Visualizer - Comic Motion"
-              class="img-projeto"
-            />
+            <video autoplay loop muted playsinline class="img-projeto">
+              <source src="videos/MASTER_2.mp4" type="video/mp4" />
+            </video>
           </div>
           <div class="info-projeto">
             <h3>Animação de Personagem - Visualizer</h3>
@@ -176,13 +170,11 @@
         </div>
 
         <!--QUARTO CARD-->
-        <div class="card-projeto">
+        <div class="card-projeto card-video">
           <div class="container-img-projeto">
-            <img
-              src="img/SIXSEVEN.png"
-              alt="Projeto CRIA: Animação (Senac)"
-              class="img-projeto"
-            />
+            <video autoplay loop muted playsinline class="img-projeto">
+              <source src="videos/Final_Cut_7.mp4" type="video/mp4" />
+            </video>
           </div>
           <div class="info-projeto">
             <h3>Animação de Personagem - Visualizer</h3>
@@ -393,7 +385,11 @@
           </div>
 
           <div class="contato-form">
-            <form>
+            <form
+              id="form-contato"
+              action="https://formspree.io/f/xnpakvjr"
+              method="POST"
+            >
               <label for="nome">Nome</label>
               <input type="text" id="nome" name="nome" />
 
@@ -410,6 +406,13 @@
             </form>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div id="modal-video" class="modal">
+      <div class="modal-content modal-video-content">
+        <button class="btn-close" id="btn-fechar-video">&times;</button>
+        <video id="video-destaque" controls></video>
       </div>
     </div>
 

@@ -546,6 +546,14 @@ h1 {
   font-size: 16px;
 }
 
+.container-img-projeto video.img-projeto {
+  width: 440px;
+  height: 440px;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+}
+
 /* Aba de Galeria */
 
 .galeria-grid {
@@ -554,7 +562,7 @@ h1 {
   gap: 24px;
 }
 
-.card-video {
+.galeria-grid .card-video {
   position: relative;
   width: 100%;
   aspect-ratio: 16 / 9;

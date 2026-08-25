@@ -61,8 +61,34 @@ header {
   padding-right: 108px;
 }
 
-.hero-content {
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
   margin-top: 170px;
+  margin-bottom: 120px;
+}
+
+.hero-texto {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero-video {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-video video {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 16px;
+  object-fit: cover;
 }
 
 h1 {
